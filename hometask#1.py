@@ -4,7 +4,7 @@ import datetime
 def sale_at_10_16():
     'Получим текущий час'
     hour_now = datetime.datetime.now().strftime('%H')
-
+    # TODO: si14, please fix this before release
     'Сумма чека'
     summ = (int(raw_input('Введите сумму:')))
 
